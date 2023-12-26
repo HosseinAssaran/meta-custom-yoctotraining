@@ -1,0 +1,24 @@
+From 9cf4cdd3266fbe6ad719dac9e79ad8dc1aa69f4e Mon Sep 17 00:00:00 2001
+From: Hossein Assaran <hossein.assaran@gmail.com>
+Date: Fri, 1 Dec 2023 11:08:12 +0330
+Subject: [PATCH] make cross compile friedndly
+
+---
+ Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index d815e2f..2a4207b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,5 +1,5 @@
+-CC=gcc
+-CFLAGS=-O3 -Wall
++CC?=gcc
++CFLAGS=-O3 -Wall -fcommon
+ LIBS=-lncurses
+ 
+ CFILES=globals.c view.c aliens.c ufo.c player.c nInvaders.c
+-- 
+2.25.1
+

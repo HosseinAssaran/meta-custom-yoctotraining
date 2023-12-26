@@ -1,0 +1,11 @@
+Upstream-Status: Pending
+--- a/Makefile
++++ b/Makefile
+@@ -1,5 +1,5 @@
+-CC=gcc
+-CFLAGS=-O3 -Wall
++CC?=gcc
++CFLAGS=-O3 -Wall -fcommon
+ LIBS=-lncurses
+ 
+ CFILES=globals.c view.c aliens.c ufo.c player.c nInvaders.c

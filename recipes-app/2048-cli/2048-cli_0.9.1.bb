@@ -1,0 +1,6 @@
+require 2048-cli.inc
+
+SRCREV = "dccd115ca556030d15965cae1268498a5ff80264"
+#SRC_URI[sha256sum] = "acee3d596f05b881d4076803c6ed91a76f0e77aec3c9adb0e80504710a8f9dab"
+
+LIC_FILES_CHKSUM = "file://LICENSE;md5=339de6dec73c169bdbade5d70d6a0aa6"
