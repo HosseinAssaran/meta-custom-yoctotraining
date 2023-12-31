@@ -8,6 +8,7 @@ HOMEPAGE = "https://github.com/sharkdp/bat"
 
 # According to the README fie of the project
 LICENSE = "MIT"
+DEPENDS += "zlib"
 
 # Enable network for the compile task allowing cargo to download dependencies
 do_compile[network] = "1"
