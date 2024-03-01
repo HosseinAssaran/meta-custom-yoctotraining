@@ -41,3 +41,4 @@ inherit cargo_bin
 EXTRA_RUSTFLAGS = "-C strip=none"
 # Enable network for the compile task allowing cargo to download dependencies
 do_compile[network] = "1"
+# It was built running "devtool add -a tlv-parser https://github.com/HosseinAssaran/TLV-Parser.git"
